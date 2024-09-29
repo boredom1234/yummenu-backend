@@ -23,6 +23,11 @@ const app = require("express")();
 const port = process.env.PORT || 3000;
 app.use(cors());
 
+// health
+app.get("/health", (req: Request, res: Response) => {
+  res.send("ok");
+});
+
 app.use("/api/order/checkout/webhook", express.raw({ type: "*/*" }));
 app.use(express.json());
 
