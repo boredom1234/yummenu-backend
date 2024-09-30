@@ -19,7 +19,7 @@ Make sure you have Node.js installed on your system. You can download it from [h
 1. Clone the repository:
     ```bash
     git clone https://github.com/boredom1234/yummenu-backend.git
-    cd nodejs-backend
+    cd yummenu-backend
     ```
 
 2. Install dependencies:
