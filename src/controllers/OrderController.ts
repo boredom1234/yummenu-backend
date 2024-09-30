@@ -170,7 +170,7 @@ const createSession = async (
       restaurantId,
     },
     // success_url: `${FRONTEND_URL}/order-status?success=true`,
-    success_url: `${FRONTEND_URL}/order-status`,
+    success_url: `${FRONTEND_URL}`,
     cancel_url: `${FRONTEND_URL}/detail/${restaurantId}?cancelled=true`,
   });
 
